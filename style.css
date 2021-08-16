@@ -133,3 +133,25 @@ text-align: center;
     width:330px;
     height:330px;
   }
+  #BuyButton{
+      display:flex;
+      justify-content: flex-end;
+      color:white;
+      padding: 15px;
+      border: none;
+    background: none;
+  }
+
+ #SellButton{
+     justify-content: flex-end;
+    color:white;
+    padding: 5px;
+    border: none;
+  background: none;
+ }
+  #BuyOne{
+      background-color: green;
+  }
+  #SellOne{
+      background-color: red;
+  }
