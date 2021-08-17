@@ -2,7 +2,7 @@ let Ichigo = document.createElement("div")
 let IchigoImage = document.createElement('img');
 IchigoImage.src = "Ichigo.jpg";
 let IchigoAnchor = document.createElement("a");
-IchigoAnchor.href = "http://127.0.0.1:5501/index2.html";
+IchigoAnchor.href = "index2.html";
 let IchigoName = document.createElement("p");
 let products = document.querySelector(".displayProduct");
 let IchigoPrice = document.createElement("p");
@@ -19,11 +19,11 @@ Ichigo.appendChild(IchigoName);
 Ichigo.appendChild(IchigoPrice);
 
 let DBZ = document.createElement("div")
-DBZ.href = "http://127.0.0.1:5501/index3.html";
+DBZ.href = "index3.html";
 let GokuImage = document.createElement('img');
 GokuImage.src = "DBZ.jpg";
 let GokuAnchor = document.createElement('a');
-GokuAnchor.href = "http://127.0.0.1:5501/index3.html";
+GokuAnchor.href = "index3.html";
 let GokuName = document.createElement("p");
 let GokuPrice = document.createElement("p");
 GokuName.innerHTML = "1/6 Scale Super Saiyan 3 Son Goku - Dragon Ball Resin Statue";
@@ -39,7 +39,7 @@ let Shinra = document.createElement("div")
 let shinraimg = document.createElement("img")
 shinraimg.src = "shinra.jpg";
 let myVar = document.createElement('a');
-myVar.href = "http://127.0.0.1:5501/index4.html";
+myVar.href = "index4.html";
 let ShinraName = document.createElement("p");
 let ShinraPrice = document.createElement("p");
 ShinraName.innerHTML = "Fire Force ArtFX J Shinra Kusakabe Statue";
