@@ -133,25 +133,74 @@ text-align: center;
     width:330px;
     height:330px;
   }
-  #BuyButton{
+  .BuyButton{
       display:flex;
       justify-content: flex-end;
-      color:white;
-      padding: 15px;
-      border: none;
-    background: none;
+  }
+  .SellButton{
+      display:flex;
+      justify-content: flex-end;
+  }
+  #buy{
+    background-color:green; /* Green */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
 
- #SellButton{
-     justify-content: flex-end;
-    color:white;
-    padding: 5px;
+ #sell{
+    background-color:red; /* Green */
     border: none;
-  background: none;
+    border-radius:25px;
+    color: white;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
  }
-  #BuyOne{
-      background-color: green;
-  }
-  #SellOne{
-      background-color: red;
-  }
+#sell:hover{
+    transition: .5s;
+    opacity: 0.5;
+ }
+ #buy:hover{
+    transition: .5s;
+    opacity: 0.5;
+ }
+
+#UL{
+    width:330px;
+    list-style-type: none;
+}
+#name{
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+word-wrap: break-word;
+}
+#IchigoStatue{
+    height:400px;
+}
+#GokuStatue{
+    height:400px;
+}
+#ShinraStatue{
+    height:400px;
+}
+#everything{
+    display:flex;
+    flex-direction: row;
+}
+#left{
+    display:flex;
+    flex-direction: column;
+}
+#right{
+    display:flex;
+    align-self: flex-end;
+}

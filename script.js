@@ -55,3 +55,4 @@ Shinra.appendChild(ShinraName);
 Shinra.appendChild(ShinraPrice);
 
 
+
