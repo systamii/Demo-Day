@@ -7,7 +7,7 @@ fmaAnchor.href = "elric.html";
 let fmaName = document.createElement("p");
 let fmaPrice = document.createElement("p");
 fmaName.innerHTML = "Edward Elric – A Fierce Counter Attack! 1/6 Scale Premium Statue (LIMITED)"
-fmaPrice.innerHTML = "$899";
+fmaPrice.innerHTML = "$619";
 fmaName.id = "IchigoName";
 fmaPrice.id = "IchigoPrice";
 let products = document.querySelector(".displayCollectibles");
@@ -60,7 +60,7 @@ dioAnchor.href = "dio.html";
 let dioName = document.createElement("p");
 let dioPrice = document.createElement("p");
 dioName.innerHTML = "Dio Brando Statue Resin JOS STUDIO JOJO'S BIZARRE ADVENTURE 1/6";
-dioPrice.innerHTML = "$249";
+dioPrice.innerHTML = "$549";
 dioName.id = "IchigoName";
 dioPrice.id = "IchigoPrice"
 products.appendChild(dio);
@@ -77,7 +77,7 @@ GLAnchor.href = "GL.html";
 let GLName = document.createElement("p");
 let GLPrice = document.createElement("p");
 GLName.innerHTML = "Tengen Toppa Gurren Lagann: Full Drill Version (LIMITED)";
-GLPrice.innerHTML = "$1299";
+GLPrice.innerHTML = "$1,299";
 GLName.id = "IchigoName";
 GLPrice.id = "IchigoPrice"
 products.appendChild(GL);
@@ -94,7 +94,7 @@ VastoAnchor.href = "vasto.html";
 let VastoName = document.createElement("p");
 let VastoPrice = document.createElement("p");
 VastoName.innerHTML = "Ichigo VS Ulqiorra; Elite Fandom Statue";
-VastoPrice.innerHTML = "$699";
+VastoPrice.innerHTML = "$783";
 VastoName.id = "IchigoName";
 VastoPrice.id = "IchigoPrice"
 products.appendChild(Vasto);
