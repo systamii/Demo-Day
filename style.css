@@ -197,9 +197,45 @@ word-wrap: break-word;
     flex-direction: row;
 }
 #left{
+    
     display:flex;
     flex-direction: column;
 }
 #right{
     display:flex;
+}
+.displayManga img{
+    height:400px;
+}
+.displayManga{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.displayClothes img {
+    height:400px;
+}
+
+.displayClothes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#bleach{
+    display:flex;
+    justify-content: center;
+    height:400px;
+}
+.BuyButton{
+    display:flex;
+    justify-content: center;
+}
+.SellButton{
+    display:flex;
+    justify-content: center;
+}
+#top{
+    text-align: center;
 }
