@@ -239,3 +239,13 @@ word-wrap: break-word;
 #top{
     text-align: center;
 }
+.displayCollectibles img {
+    height:400px;
+    width:400px;
+}
+
+.displayCollectibles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
