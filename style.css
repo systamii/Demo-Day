@@ -261,3 +261,10 @@ word-wrap: break-word;
     font-weight:bold;
 }
 
+@media only screen and (max-width: 600px) {
+    footer{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
