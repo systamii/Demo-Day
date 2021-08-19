@@ -16,6 +16,7 @@
         <a href="MangaSearch.html">Manga<br></a>
         <a href="ClothesSearch.html">Clothes <br></a>
         <a href="CollectiblesSearch.html">Collectibles<br></a>
+        <a href = "login.html">Log In<br></a>
     </div>
     <br>
     <br><br>
@@ -35,6 +36,46 @@
             <div class="SellButton">
                 <button id="sell">Sell Now <br><br>$2000</button>
             </div>
+            <br>
+            <div id="paypal-button" style="text-align:center;"></div>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+paypal.Button.render({
+// Configure environment
+env: 'sandbox',
+client: {
+sandbox: 'demo_sandbox_client_id',
+production: 'demo_production_client_id'
+},
+// Customize button (optional)
+locale: 'en_US',
+style: {
+size: 'large',
+color: 'blue',
+shape: 'pill',
+},
+// Set up a payment
+payment: function (data, actions) {
+return actions.payment.create({
+transactions: [{
+amount: {
+total: '0.01',
+currency: 'USD'
+}
+}]
+});
+},
+// Execute the payment
+onAuthorize: function (data, actions) {
+return actions.payment.execute()
+.then(function () {
+// Show a confirmation message to the buyer
+window.alert('Thank you for your purchase!');
+});
+}
+}, '#paypal-button');
+</script>
+</div>
         </div>
         <footer>
             <p>All Rights Owned By John chandler | Pavel Annor | Akram |

@@ -206,6 +206,7 @@ word-wrap: break-word;
 }
 .displayManga img{
     height:400px;
+    border-radius: 15%;
 }
 .displayManga{
     display:flex;
@@ -242,6 +243,7 @@ word-wrap: break-word;
 .displayCollectibles img {
     height:400px;
     width:400px;
+    border-radius: 5%;
 }
 
 .displayCollectibles{
@@ -249,3 +251,13 @@ word-wrap: break-word;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.header{
+    text-align: center;
+    font-size: 24;
+}
+.login{
+    text-align: center;
+    font-size: 24;
+    font-weight:bold;
+}
+

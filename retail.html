@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB1U-KTqe7_8n7hIOyhBZW0DTq98DITFm4",
+    authDomain: "hopes-and-dreams.firebaseapp.com",
+    projectId: "hopes-and-dreams",
+    storageBucket: "hopes-and-dreams.appspot.com",
+    messagingSenderId: "897618572748",
+    appId: "1:897618572748:web:2129203f01a73d632bd969",
+    measurementId: "G-XTGDF3PY9S"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  
+  <script src="script.js"defer></script>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+      
+    
+    <form action="registration.php" method="post"></form>
+    
+<div class = "login">
+  <h1>Create your AniMedia Account</h1>
+  <div class = "section1">
+    <label for="first_name"> First Name:</label>
+    <input type ="text" name ="first_name" required>
+</div>
+<div class = "section2">
+  <label for="last_name"> Last Name:</label>
+  <input type ="text" name ="last_name" required>
+</div>
+
+    <div class = "section3">
+        <label for="username"> Username:</label>
+        <input type ="text" name ="username"  required>
+    </div>
+
+    <div class = "section5">
+        <label for="password">Password:</label>
+        <input type ="text" name ="password_1"  required>
+    </div>
+<div class ="button1"></div>
+    <button type = "submit">Submit</button>
+  </div>
+<div id = "end">
+    <p>Already a user?<a href = "login.html"> Login</a></p>
+  </div>
+  <footer>
+    <p>All Rights Owned By John chandler | Pavel Annor | Akram |
+        © 2021 AMMedia | Copyright</p>
+</footer>
+</body>
+
+</html>
