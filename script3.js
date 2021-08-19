@@ -100,3 +100,12 @@ drip4.appendChild(Anchor4);
 Anchor4.appendChild(IMG4);
 drip4.appendChild(Name4);
 drip4.appendChild(Price4);
+
+function myFunction() {
+    var x = document.getElementById("nav_div");
+    if (x.className === "nav_div") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav_div";
+    }
+  }

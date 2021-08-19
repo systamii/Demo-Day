@@ -182,3 +182,70 @@ footer {
     color: white;
     text-align: center;
   }
+  @media only screen and (max-width: 600px) {
+    footer{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .displayProduct{
+        display:flex;
+        flex-direction: column;
+        width:300px;
+    }
+    .displayClothes{
+        display:flex;
+        flex-direction: column;
+        width:300px;
+    }
+  .displayCollectibles{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+  }
+  .displayManga{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+  }
+  #IchigoName{
+    display: flex;
+    flex-wrap: wrap;
+    width:290px;
+}
+#GokuName{
+    display: flex;
+    flex-wrap: wrap;
+    width:290px;
+}
+#ShinraName{
+    display: flex;
+    flex-wrap: wrap;
+    width:290px;
+}
+#nav_div{
+    display:flex;
+    flex-direction: column;
+    
+}
+#nav_div img{
+    width:45px;
+    
+}
+#nav_div a:not(:first-child) {display: none;}
+#nav_div a.icon {
+  float: right;
+  display: block;
+}
+#nav_div.responsive {position: relative;}
+#nav_div.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #nav_div.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
