@@ -35,25 +35,6 @@ OPAnchor.appendChild(OPIMG);
 OP.appendChild(OPName);
 OP.appendChild(OPPrice)
 
-//naruto vol 42
-let Naruto = document.createElement("div")
-let NarutoIMG = document.createElement('img');
-NarutoIMG.src = "Naruto.jpg";
-let NarutoAnchor = document.createElement("a");
-NarutoAnchor.href = "NTO.html";
-let NarutoName = document.createElement("p");
-let NarutoPrice = document.createElement("p");
-NarutoName.innerHTML = "Naruto Volume 42";
-NarutoPrice.innerHTML = "$9.99";
-NarutoName.id = "VolName";
-NarutoPrice.id = "VolPrice";
-products.appendChild(Naruto);
-Naruto.appendChild(NarutoAnchor);
-NarutoAnchor.appendChild(NarutoIMG);
-Naruto.appendChild(NarutoName);
-Naruto.appendChild(NarutoPrice);
-
-
 //chainsaw man vol 5
 let CSM = document.createElement("div")
 let CSMIMG = document.createElement('img');

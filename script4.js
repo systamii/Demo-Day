@@ -71,7 +71,7 @@ dio.appendChild(dioPrice);
 
 let GL = document.createElement("div")
 let GLImage = document.createElement('img');
-GLImage.src = "Gurren.jpg";
+GLImage.src = "gurren.jpg";
 let GLAnchor = document.createElement("a");
 GLAnchor.href = "GL.html";
 let GLName = document.createElement("p");
