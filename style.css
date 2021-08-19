@@ -267,4 +267,8 @@ word-wrap: break-word;
       flex-direction: column;
       justify-content: flex-end;
     }
+    .displayProduct{
+        display:flex;
+        flex-direction: column;
+    }
   }
